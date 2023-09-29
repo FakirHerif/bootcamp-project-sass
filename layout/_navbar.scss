@@ -1,0 +1,27 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17rem;
+    background-color: $nav-color;
+    justify-content: center;
+}
+
+.navbar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #CA7D60;
+    margin: 10px;
+}
+
+.navList {
+    font-family: $font-family;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
