@@ -20,8 +20,15 @@
 }
 
 .navList {
-    font-family: $font-family;
-    font-size: 20px;
+    font-family: $navandp-font;
+    font-size: 18px;
     text-align: center;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem;;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
 }
