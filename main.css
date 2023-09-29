@@ -91,6 +91,10 @@ table {
   margin-left: 300px;
 }
 
+.tumSayfa {
+  line-height: 1.5;
+}
+
 .section {
   display: flex;
   align-items: center;
@@ -100,4 +104,42 @@ table {
   padding-bottom: 5rem;
   max-width: 75rem;
   min-height: 100vh;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.isimSoyisim {
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.isimSoyisim span {
+  color: #BD5D38;
+}
+
+.isimSoyisim h1 {
+  color: #343A40;
+}
+
+.adres {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  color: #343A40;
+  text-transform: uppercase;
+}
+
+.adres a {
+  color: #BD5D38;
+}
+
+p {
+  color: #6c757d;
+  font-size: 1.15rem;
+  margin-bottom: 3rem;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }/*# sourceMappingURL=main.css.map */
