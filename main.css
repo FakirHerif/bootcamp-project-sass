@@ -125,7 +125,7 @@ table {
 }
 
 .adres {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-weight: bold;
   margin-bottom: 50px;
   font-size: 1.5rem;
@@ -142,4 +142,22 @@ p {
   font-size: 1.15rem;
   margin-bottom: 3rem;
   font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.ikonlar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.ikonlar:hover {
+  background-color: #BD5D38;
 }/*# sourceMappingURL=main.css.map */

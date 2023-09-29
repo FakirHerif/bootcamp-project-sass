@@ -31,7 +31,7 @@
 }
 
 .adres {
-    font-family: $font-family;
+    font-family: $navandp-font;
     font-weight: bold;
     margin-bottom: $margin-bottom;
     font-size: 1.5rem;
@@ -48,4 +48,23 @@ p {
     font-size: 1.15rem;
     margin-bottom: 3rem;
     font-family: $navandp-font;
+}
+
+.ikonlar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    transition: background-color 0.2s ease;
+}
+
+
+.ikonlar:hover {
+    background-color: $nav-color
 }
