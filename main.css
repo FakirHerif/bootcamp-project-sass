@@ -64,7 +64,6 @@ table {
   background-color: #BD5D38;
   justify-content: center;
 }
-
 .navbar img {
   width: 150px;
   height: 150px;
@@ -84,7 +83,7 @@ table {
   display: block;
   padding: 0.5rem;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.635);
   text-transform: uppercase;
   transition: background-color 0.2s ease;
 }
@@ -121,11 +120,9 @@ table {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
-
 .isimSoyisim span {
   color: #BD5D38;
 }
-
 .isimSoyisim h1 {
   color: #343A40;
 }
@@ -138,7 +135,6 @@ table {
   color: #343A40;
   text-transform: uppercase;
 }
-
 .adres a {
   color: #BD5D38;
 }
@@ -147,6 +143,26 @@ p {
   color: #6c757d;
   font-size: 1.15rem;
   margin-bottom: 3rem;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+h2 {
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  color: #343A40;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #343A40;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: bold;
+}
+
+h4 {
+  color: #6c757d;
   font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
@@ -166,4 +182,17 @@ p {
 
 .ikonlar:hover {
   background-color: #BD5D38;
+}
+
+.experienceDate {
+  display: flex;
+  align-items: center;
+  color: #BD5D38;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.denemebir {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

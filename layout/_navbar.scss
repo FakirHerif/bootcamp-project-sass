@@ -9,14 +9,14 @@
     width: 17rem;
     background-color: $nav-color;
     justify-content: center;
-}
-
-.navbar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 8px solid #CA7D60;
-    margin: 10px;
+    
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 8px solid #CA7D60;
+        margin: 10px;
+    }
 }
 
 .navList {
@@ -30,7 +30,7 @@
     display: block;
     padding: 0.5rem;;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.635);
     text-transform: uppercase;
     transition: background-color 0.2s ease;
 }

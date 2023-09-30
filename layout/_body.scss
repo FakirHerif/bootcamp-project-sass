@@ -20,14 +20,14 @@
     font-size: 100px;
     font-family: $font-family;
     font-weight: bold;
-}
 
-.isimSoyisim span {
-    color: $nav-color;
-}
+    span {
+        color: $nav-color;
+    }
 
-.isimSoyisim h1 {
-    color: $baslik-color;
+    h1 {
+        color: $baslik-color;
+    }
 }
 
 .adres {
@@ -37,16 +37,36 @@
     font-size: 1.5rem;
     color: $baslik-color;
     text-transform: uppercase;
-}
 
-.adres a {
-    color: $nav-color;
+    a {
+        color: $nav-color;
+    }
 }
 
 p {
     color: $text-color;
     font-size: 1.15rem;
     margin-bottom: 3rem;
+    font-family: $navandp-font;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    color: $baslik-color;
+    font-family: $font-family;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: $baslik-color;
+    font-family: $navandp-font;
+    font-weight: bold;
+}
+
+h4 {
+    color: $text-color;
     font-family: $navandp-font;
 }
 
@@ -67,4 +87,17 @@ p {
 
 .ikonlar:hover {
     background-color: $nav-color
+}
+
+.experienceDate {
+    display: flex;
+    align-items: center;
+    color: $nav-color;
+    font-family: $navandp-font;
+}
+
+.denemebir {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
