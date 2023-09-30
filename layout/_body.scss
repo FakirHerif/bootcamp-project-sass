@@ -46,7 +46,6 @@
 p {
     color: $text-color;
     font-size: 1.15rem;
-    margin-bottom: 3rem;
     font-family: $navandp-font;
 }
 
@@ -63,7 +62,6 @@ h3 {
     color: $baslik-color;
     font-family: $navandp-font;
     font-weight: bold;
-    padding-top: 15px;
 }
 
 h4 {
@@ -98,11 +96,13 @@ h4 {
     align-items: center;
     color: $nav-color;
     font-family: $navandp-font;
+    margin-left: 560px;
 }
 
 .denemebir {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 60px;
 }
 
