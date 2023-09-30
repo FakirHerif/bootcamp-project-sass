@@ -63,11 +63,15 @@ h3 {
     color: $baslik-color;
     font-family: $navandp-font;
     font-weight: bold;
+    padding-top: 15px;
 }
 
 h4 {
     color: $text-color;
     font-family: $navandp-font;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    font-weight: bold;
 }
 
 .ikonlar {
@@ -101,3 +105,4 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
 }
+
