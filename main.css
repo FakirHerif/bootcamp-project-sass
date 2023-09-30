@@ -199,4 +199,18 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 60px;
+}
+
+.ikonz {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.ikonz .svg-inline--fa {
+  height: 3em;
+  overflow: visible;
 }/*# sourceMappingURL=main.css.map */
