@@ -96,6 +96,14 @@ table {
   margin-left: 300px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
 .tumSayfa {
   line-height: 1.5;
 }
