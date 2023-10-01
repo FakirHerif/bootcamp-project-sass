@@ -43,6 +43,13 @@
     margin-left: 300px;
 }
 
+.active {
+    color: rgb(255, 255, 255);
+    background-color:#CA7D60;
+    border-radius: 10px;
+    border: 1px solid #00eeff; /* Kenarlık rengi */
+    box-shadow: 0 0 8px rgb(0, 255, 21);
+}
 
 @media screen and (max-width: 768px) {
     .navbar {

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -94,6 +95,14 @@ table {
 
 .navbar + .tumSayfa {
   margin-left: 300px;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  background-color: #CA7D60;
+  border-radius: 10px;
+  border: 1px solid #00eeff; /* Kenarlık rengi */
+  box-shadow: 0 0 8px rgb(0, 255, 21);
 }
 
 @media screen and (max-width: 768px) {
@@ -364,5 +373,6 @@ h4 {
     text-align: center;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
+.m-0 {
+  margin-left: -30px;
+}/*# sourceMappingURL=main.css.map */

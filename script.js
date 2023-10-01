@@ -1,15 +1,22 @@
 
-/* document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('.nav-link');
-    links.forEach(link => {
-        link.classList.remove('active');
+document.addEventListener('DOMContentLoaded', function() {     // sayfa açıldığında nav-link classında bulunan tüm active classlarını kaldırmak için bu fonksiyonu kullandım
+    const linkElements = document.querySelectorAll('.nav-link');
+    linkElements.forEach(linkElement => {
+        linkElement.classList.remove('active');
+            });
+
+
+    linkElements.forEach(linkElement => {       // bu fonksiyondaki amaç tıkladığım ögeye active classını eklemek ve bu sayede istediğim stili sadece tıkladığım ve active class'ı yerleşecek olan ögeye uygulayabilmek.
+        linkElement.addEventListener('click', function(event) {
+            linkElements.forEach(element => {
+                element.classList.remove('active');     // burası bir ögeye tıkladığım zaman diğer ögedeki active class'ları siliyor, bunu eklemezsem daha önce tıkladığım ögelerde ki active class'ı silinmez bu yüzden eklemek gerekiyordu
+            });
+            event.target.classList.add('active');   // burası active classını ekliyor
+        });
     });
-    console.log(links);
-}); 
+});
 
-SİLME İŞLEMİ ÇALIŞIYOR AMA EKLEME İŞLEMİ ÇALIŞMIYOR - BUNU DAHA SONRA DENE
 
-*/ 
 
 document.querySelectorAll('.nav-link').forEach(link => {    //navlink classlarının hepsini seçtim
     link.addEventListener('click', function (e) {   //navlinkler için bir listener oluşturdum ve tıkladığında fonksiyon çalışacak
