@@ -105,7 +105,6 @@ h4 {
     align-items: center;
     color: $nav-color;
     font-family: $navandp-font;
-    margin-left: 560px;
 }
 
 .denemebir {
@@ -153,3 +152,117 @@ h4 {
     width: 20px;
     margin-top: 3.5px;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+    
+    .isimSoyisim {
+        font-size: 50px;
+        font-family: $font-family;
+        font-weight: bold;
+    
+        span {
+            color: $nav-color;
+            font-size: 30px;
+        }
+    
+        h1 {
+            color: $baslik-color;
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    
+    .adres {
+        font-family: $navandp-font;
+        font-weight: bold;
+        margin-bottom: $margin-bottom;
+        font-size: 14px;
+        color: $baslik-color;
+        text-transform: uppercase;
+        text-align: center;
+
+    
+        a {
+            color: $nav-color;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    
+    p {
+        color: $text-color;
+        font-size: 15px;
+        font-family: $navandp-font;
+    }
+    
+    h2 {
+        margin-bottom: 3rem;
+        font-size: 25px;
+        color: $baslik-color;
+        font-family: $font-family;
+        font-weight: bold;
+    }
+    
+    h3 {
+        font-size: 15px;
+        color: $baslik-color;
+        font-family: $navandp-font;
+        font-weight: bold;
+    }
+    
+    h4 {
+        color: $text-color;
+        font-family: $navandp-font;
+        padding-bottom: 20px;
+        padding-top: 5px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .ikonlar {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: #495057;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 1.3rem;
+        transition: background-color 0.2s ease;
+        margin-top: 50px;
+    }
+    
+    .simgeler {
+        text-align: center;
+    }
+    .ikonlar:hover {
+        background-color: $nav-color
+    }
+    
+    .experienceDate {
+        display: flex;
+        align-items: center;
+        color: $nav-color;
+        font-family: $navandp-font;
+        font-size: 11px;
+    }
+    
+    .denemebir {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-left: 1px;
+    }
+
+    #ikonze {
+        text-align: center;
+    }
+};

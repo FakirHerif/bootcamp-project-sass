@@ -1,3 +1,17 @@
+
+/* document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach(link => {
+        link.classList.remove('active');
+    });
+    console.log(links);
+}); 
+
+SİLME İŞLEMİ ÇALIŞIYOR AMA EKLEME İŞLEMİ ÇALIŞMIYOR - BUNU DAHA SONRA DENE
+
+*/ 
+
+
 document.querySelectorAll('.nav-link').forEach(link => {    //navlink classlarının hepsini seçtim
     link.addEventListener('click', function (e) {   //navlinkler için bir listener oluşturdum ve tıkladığında fonksiyon çalışacak
         e.preventDefault(); // sayfanın refresh olmasını engelledim

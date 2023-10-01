@@ -42,3 +42,32 @@
 .navbar + .tumSayfa {
     margin-left: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px; 
+      flex-direction: row; 
+      justify-content: space-around; 
+      padding: 10px; 
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .navbar img {
+        display: none;
+    }
+
+    .navbar + .tumSayfa {
+        margin-left: 1px;
+    }
+  }
+  
+  
