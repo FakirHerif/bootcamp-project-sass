@@ -29,3 +29,56 @@ document.querySelectorAll('.nav-link').forEach(link => {    //navlink classları
         });
     });
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const linkElements = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('section');
+    let isScrolling = false;
+
+    linkElements.forEach(linkElement => {
+        linkElement.addEventListener('click', function (event) {
+            linkElements.forEach(element => {
+                element.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        });
+    });
+
+    window.addEventListener('scroll', function () {
+        if (!isScrolling) {
+            window.requestAnimationFrame(function () {
+                let currentSectionId = null;
+
+                sections.forEach(section => {
+                    const rect = section.getBoundingClientRect();
+                    if (rect.top >= 0 && rect.top <= 50) {
+                        currentSectionId = section.getAttribute('id');
+                    }
+                });
+
+                if (currentSectionId) {
+                    linkElements.forEach(linkElement => {
+                        linkElement.classList.remove('active');
+                        if (linkElement.getAttribute('href').substring(1) === currentSectionId) {
+                            linkElement.classList.add('active');
+                        }
+                    });
+                }
+
+                isScrolling = false;
+            });
+
+            isScrolling = true;
+        }
+    });
+
+    // Sayfa yenilendiğinde active sınıfını kaldır
+    window.addEventListener('load', function () {
+        linkElements.forEach(linkElement => {
+            linkElement.classList.remove('active');
+        });
+    });
+});
