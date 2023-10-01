@@ -11,7 +11,6 @@ SİLME İŞLEMİ ÇALIŞIYOR AMA EKLEME İŞLEMİ ÇALIŞMIYOR - BUNU DAHA SONRA
 
 */ 
 
-
 document.querySelectorAll('.nav-link').forEach(link => {    //navlink classlarının hepsini seçtim
     link.addEventListener('click', function (e) {   //navlinkler için bir listener oluşturdum ve tıkladığında fonksiyon çalışacak
         e.preventDefault(); // sayfanın refresh olmasını engelledim
